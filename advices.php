@@ -3,10 +3,9 @@
 $json = base64_decode($_GET["e"]);
 $data = json_decode($json);
 
-echo '<pre>';
+echo "<pre>";
 print_r($data);
-echo '</pre>';
-
+echo "</pre>";
 
 $categories = [
   (object) [
@@ -16,7 +15,7 @@ $categories = [
 
       (object) [
         "title" => "Benutze ein Haushaltsbuch",
-        "display" => isset($data->q29) && in_array('292', $data->q29),
+        "display" => isset($data->q29) && in_array("292", $data->q29),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung1.png",
         "contentUrl" =>
@@ -35,6 +34,16 @@ $categories = [
               "Die besten Tools und Apps zeige ich dir im Blogartikel. Dort findest du auch einige Vorlagen für Excel oder als PDF.",
             "icon" =>
               "https://andreasjansen.com/wp-content/uploads/2022/09/MiniIcon8.png",
+          ],
+        ],
+        "links" => [
+          (object) [
+            "url" => "http://google.de",
+            "text" => "Weiter zur Vorlage",
+          ],
+          (object) [
+            "url" => "http://google.de",
+            "text" => "Weiter zum Blog",
           ],
         ],
       ],
@@ -1632,11 +1641,11 @@ $categories = [
   .advice__content {
     background: #f4f4f4;
     display: flex;
-    padding-top: 1rem;
+    padding: 1rem;
+    gap: 1rem;
   }
 
   .advice__descriptions {
-    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -1668,8 +1677,6 @@ $categories = [
     display: flex;
     gap: 1rem;
     flex-direction: column;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
   }
 
   .advice__links a {
@@ -1692,10 +1699,6 @@ $categories = [
       gap: 1rem;
     }
 
-    .advice__links {
-      padding-left: 1rem;
-    }
-
     .container {
       padding: 1rem;
       margin: 0 auto;
@@ -1710,7 +1713,7 @@ $categories = [
     <?php foreach ($categories as &$category): ?>
       <div class="category">
         <h2 class="category__headline">
-          <?php if(!empty($data->firstName)): ?>
+          <?php if (!empty($data->firstName)): ?>
             <?= $category->title ?> für <?= $data->firstName ?>
           <?php else: ?>
             <?= $category->title ?>
@@ -1749,8 +1752,9 @@ $categories = [
                 </div>
 
                 <div class="advice__links">
-                  <a target="_blank" href="<?= $advice->contentUrl ?>">Zum Blogartikel weiter »</a>
-                  <a target="_blank" href="<?= $advice->affiliateUrl ?>">Zum Anbieter weiter »</a>
+                  <?php foreach ($advice->links as $link): ?>
+                    <a target="_blank" href="<?= $link->url ?>"><?= $link->text ?></a>
+                  <?php endforeach; ?>
                 </div>
               </div>
             </div>
