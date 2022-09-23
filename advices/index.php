@@ -57,7 +57,8 @@ $categories = [
 
       (object) [
         "title" => "Benutze ein Haushaltsbuch",
-        "display" => isset($data->q3) && ($data->q3 === '33' || $data->q3 === '44'),
+        "display" =>
+          isset($data->q3) && ($data->q3 === "33" || $data->q3 === "44"),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung1.png",
         "contentUrl" =>
