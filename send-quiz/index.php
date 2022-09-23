@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . "../vendor/autoload.php";
-require "../config.php";
+require "../../config.php";
 
 if (!$cors) {
   header("Access-Control-Allow-Origin: *");
