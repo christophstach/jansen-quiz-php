@@ -2,18 +2,15 @@
 require __DIR__ . "../vendor/autoload.php";
 require "../config.php";
 
-$http = new GuzzleHttp\Client();
-
 if (!$cors) {
   header("Access-Control-Allow-Origin: *");
   header("Access-Control-Allow-Headers: *");
 }
 
-$json = base64_decode($_GET["e"]);
-$data = json_decode($json);
-
 header("Content-Type", "application/json");
 
+
+$http = new GuzzleHttp\Client();
 $json = file_get_contents("php://input");
 
 if ($json) {
