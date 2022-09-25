@@ -20,7 +20,7 @@ if ($json) {
   $firstName = $data->firstName;
 
   $fields = [
-    "ziel" => isset($data->q2) ? $data->q2 : null,
+    "ziel" => $data->c[2],
     "bankinstitute" => isset($data->q3) ? $data->q3 : null,
     "wohnung" => isset($data->q5) ? $data->q5 : null,
     "steuererklarung" => isset($data->q6) ? $data->q6 : null,
