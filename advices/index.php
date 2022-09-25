@@ -312,7 +312,7 @@ $categories = [
 
       (object) [
         "title" => "Spare Geld mit Cashback-Systemen",
-        "display" => isset($data->q2) && ($data->q2 === "22"),
+        "display" => ($data->c[2] === "1.1"),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung10.png",
         "descriptions" => [
@@ -731,7 +731,7 @@ $categories = [
 
       (object) [
         "title" => "Kennst du deine Rentenlücke?",
-        "display" => isset($data->q2) && ($data->q2 === "24"),
+        "display" => 
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung40.png",
         "descriptions" => [
@@ -1279,7 +1279,7 @@ $categories = [
 
       (object) [
         "title" => "Die richtige Geldanlage für deine Kinder",
-        "display" => isset($data->q2) && ($data->q2 === "221"),
+        "display" => isset($data->q22) && ($data->q22 === "221"),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung27.png",
         "descriptions" => [
@@ -1613,7 +1613,7 @@ $categories = [
 
       (object) [
         "title" => "Starte Finanzen im Griff - Online-Kurs",
-        "display" => isset($data->q2) && ($data->q2 === "22" || $data->q2 === "24"),
+        "display" => ($data->c[2] === "1.1" || $data->c[2] === "1.3"),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung45.png",
         "descriptions" => [
@@ -1644,7 +1644,7 @@ $categories = [
 
       (object) [
         "title" => "Erfolgreicher Vermögensaufbau mit ETFs - Online-Kurs",
-        "display" => isset($data->q2) && ($data->q2 === "23" && $data->q2 !== "2017"),
+        "display" => ($data->c[2] === "1.2" && $data->q20 !== "2017"),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung46.png",
         "descriptions" => [
@@ -1675,7 +1675,7 @@ $categories = [
 
       (object) [
         "title" => "Starte das Programm Performer Portfolio",
-        "display" => isset($data->q2) && ($data->q2 === "23" && $data->q20 === "2017"),
+        "display" => ($data->c[2] === "1.2" && $data->q20 !== "2017"),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung47.png",
         "descriptions" => [
