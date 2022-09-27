@@ -1,0 +1,827 @@
+<div class="container">
+    <img src="https://andreasjansen.com/wp-content/uploads/2022/06/Deckblatt-Finanzreport-1.webp.jpg" alt="Deckblatt" style="width:99.90%;">
+    <div class="name"><h1>Erstellt für {% if name == blank %} Unbekannt{% else %} {{ name }}{% endif %} </h1></div>
+    <div class="nameandreasjansen"><h1>www.andreasjansen.com/finanzplan </h1></div>
+    
+  </div>
+  
+  <div>
+  <h1 style="padding: 10px; background-color:#25215c; color:#efc537; text-align:center; font-weight:800;font-size:40px;">So funktioniert´s</h1>
+  </div>
+  
+  <div class="flex" style="padding-left:50px;padding-right:50px;color:#251e57">
+    <div class="w-3/5"><img class="imgcenterandreas" src="https://andreasjansen.com/wp-content/uploads/2022/03/K1A1151_korr_sRGB_8_2000x3000px_b-scaled-1024x683-2.jpg" alt="uebermich"></div>
+    <div style="margin-top:10px;" class="w-2/5"><p>Hallo {% if name == '' %} Unbekannt 👋{% else %} {{ name }}👋{% endif %},
+    <br> Ich bin Andreas, Autor deines Finanzreports. Das Ziel des Finanzreports ist dir zu zeigen, dass es konkrete Möglichkeiten gibt deine Finanzen sofort zu verbessern 💰</p><p><br> <b> Mein Tipp: </b>Schau dir den Online-Kurs 📺 an, der dir empfohlen wird, damit du schneller in die Umsetzung kommst!</p>
+  </div>
+  </div>
+  
+  <div style="padding-left:50px;padding-right:50px;color:#251e57">
+  <h1 style="color:#25215c;text-align:left; margin-top:10px; margin-bottom: 10px; font-weight:700;font-size:30px;">So funktioniert dein Finanzreport:</h1>
+  
+  <h3 style="color:#25215c;text-align:left; margin-top:20px;">So, bevor wir loslegen {% if name == '' %} Unbekannt{% else %} {{ name }}{% endif %},
+  </h3>
+  
+  <p>hier noch ein paar Hinweise, damit du den Report besser für dich nutzt:</p><br><li>Im <b> PDF kannst du die einzelnen Tipps anklicken</b> 📖 und erhältst weitere Informationen & mehr Details zur Umsetzung in meinen Blogartikeln. Klicke dazu im PDF einfach auf jeweilige Box des Tipps!</li> <br> <li>Du kannst deinen Report <b>ausgedruckt nutzen</b>🖨, damit du deine Tipps und To-Dos mittels der Checklisten abhaken kannst. Am besten deinen Finanzreport absichern und den Report ausdrucken!<br> <br> </li><li
+  > Dein Finanzreport ist in 4 Teile aufgeteilt: <b>Sparen</b> 💰,<b> Absicherung</b> 🛡, <b>Investieren</b>📈  & <b>Finanzwissen</b>🤓. Probiere bitte dir wirklich alle Tipps anzusehen und ernst zu nehmen, da sonst gerne Tipps übersprungen werden, welche wichtige Grundlagen für deine Finanzen sind!</li></p>
+  <div style="margin-top: 15px;">
+  <h1 style="color:#25215c;text-align:left; margin-bottom:10px; font-weight:700;font-size:30px;">Meine Online-Kurs-Empfehlung für dich: </h1>
+  
+  <!-- Tipp 0 Online-Kurs Finanzen Griff im Griff-->
+  
+  {% if ziel == "1.1" or ziel == "1.3" %}
+  <div  style="padding-right:15px;" class="image11">
+      <a href="https://andreasjansen.com/finanzen-im-griff/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport45.webp"></a></div>
+  </div>
+  {% endif %}
+  
+  <!-- Tipp 0 Online-Kurs Vermoegensaufbau-->
+  
+  {% if ziel == "1.2" and investiertetf != "2018" %}
+  <div  style="padding-right:15px;" class="image11">
+      <a href="https://andreasjansen.com/online-kurs-vermoegensaufbau-angebot/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport46-v.webp"></a></div>
+  </div>
+  {% endif %}
+  
+    <!-- Tipp 0 Online-Kurs Fortgeschritten Investitionen-->
+  
+  {% if ziel == "1.2" and investiertetf == "2018" %}
+  <div  style="padding-right:15px;" class="image11">
+      <a href="https://andreasjansen.com/online-kurs-fortgeschrittener-vermoegensaufbau/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport47.webp"></a></div>
+  </div>
+  {% endif %}
+  
+  </div>
+  </div>
+  <div class="page-break"> </div>
+  
+  <div style="background-color:#25215c;">
+  <h1 style="background-color:#25215c; padding-top: 15px; padding-bottom:0px; color:#efc537;text-align:center;font-weight:600;font-size:50px;">Dein 6-Wochen-Programm</h1>
+  <p style="background-color:#25215c;  color:#efc537;text-align:center;padding: 10px; font-weight:600;font-size:14px;">Tipp: Im PDF kannst du die Aufgaben klicken, um mehr zu erfahren!</p>
+  </div>
+  <div class="flex">
+    <div class="w-1/3"><p style="color:#25215c; margin-left:-100px; padding: 10px; font-weight: 700; font-size:30px; text-align:center;">Tag</p></div>
+    <div class="w-1/3"><p style="color:#25215c; padding: 10px; font-weight: 700; font-size:30px; text-align:center;">Aufgabe</p></div>
+    <div class="w-1/3"><p style="color:#25215c; margin-left:100px;padding: 10px; font-weight: 700; font-size:30px; text-align:center;">To-Do</p></div>
+  </div>
+
+  <!-- Tipp 45 Tipp Kurs 1 Finanzen im Griff  -->
+  
+  {% if ziel == "1.1" or ziel == "1.3" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/finanzen-im-griff/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport45.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 46 Tipp Kurs 2 Vermögensaufbau mit ETFs -->
+  
+  {% if ziel == "1.2" and investiertetf != "2018" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/online-kurs-vermoegensaufbau-angebot/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport46-v.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 47 Tipp Kurs 3 Performer Portfolio  -->
+  
+  {% if ziel == "1.2" and investiertetf == "2018" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/online-kurs-fortgeschrittener-vermoegensaufbau/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport47.webp"></a></div>
+  </div>
+  {% endif %}
+
+<!--Spartipps starten-->
+<br>
+<div style="background-color:#25215c;">
+<h1 style="background-color:#25215c; padding-top: 35px; padding-bottom:35px; color:#efc537;text-align:center;font-weight:600;font-size:50px;">Deine Spartipps</h1>
+</div>
+
+<!-- Tipp 1 Haushaltsbuch-->
+  
+  {% if bankinstitute == "32" or bankinstitute == "33"   %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/beste-haushaltsbuch-app-2020/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport1.webp"></a></div>
+  </div>
+  {% endif %}
+  
+ <!-- Tipp2 Strom-->
+  
+  {% if strom != "41" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/strom-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport2.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp3 Internet-->
+  
+  {% if internet != "42" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/internet-vertrag-wechseln/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport3.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp4 Nebenkosten-->
+  
+  {% if wohnung == "52" or wohnung == "53"  %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/nebenkosten-berechnen-online/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport4.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 5 Handy-->
+  
+  {% if handy != "43" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/handyvertrag-wechseln/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport5.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 6 Steuer-->
+{% if steuer == "61" or steuer == "62" or steuer == "63" %}  
+   <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/steuererklaerung-selber-machen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport6.webp"></a></div>
+  </div>
+  
+  {% endif %}
+
+  <!-- Tipp 7 Krankenkasse-->
+  
+  {% if krankenkasse == "132" or  krankenkasse == "133" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/krankenkasse-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport7.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 8 ADAC Auto-->
+  
+  {% if auto == "121" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/adac-kuendigen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport8.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 9 Reise Curve-->
+  
+  {% if reise == "111" or reise == "112"  %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/curve-kreditkarte-im-test/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport9.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 10 Cashback Lidl App -->
+  
+  {% if ziel == "1.1" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/cashback-programm/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport10.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 11 Girokonto-->
+  
+  {% if girokonto == "71" or girokonto == "73" or girokonto == "74" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/girokonto-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport11.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 12 Schulden abbaun Kredit-->
+  
+  {% if privatkredit == "141" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://shop.andreasjansen.com/products/schuldenabbau-vorlagen?_pos=1&_sid=d80826c0c&_ss=r"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport12.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 13 Vertragsübersicht-->
+  
+  {% if abo == "82" or abo == "83" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://shop.andreasjansen.com/products/vertragsubersicht-excel?_pos=1&_sid=11df08796&_ss=r"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport13.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 14 Vivid Kreditkarte-->
+  
+  {% if kreditkarten == "101" or kreditkarten == "102" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/kreditkarte-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport14.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 15 Finanzguru Finanz App-->
+  
+  {% if app == "92" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/links/blog-finanzguru"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport15.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 16 Aktiendepot Wechsel -->
+  
+  {% if aktiendepot == "151" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/depot-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport16.webp"></a></div>
+  </div>
+  {% endif %}
+  
+   <!-- Tipp 44 KFZ Kfz Haftpflicht -->
+  
+  {% if auto == "121" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/links/blog-kfz-versicherung-tarifcheck"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport44.webp"></a></div>
+  </div>
+  {% endif %}
+  
+  <!--Absicherungstipps starten-->
+<br>
+<div style="background-color:#25215c;">
+<h1 style="background-color:#25215c; padding-top:35px; padding-bottom:35px; color:#efc537;text-align:center;font-weight:600;font-size:50px;">Deine Absicherungstipps</h1>
+</div>
+
+  <!-- Tipp 51 Versicherungscheck-->
+  
+  {% if 1 == 1 %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/welche-versicherungen-braucht-man/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport51.webp"></a></div>
+  </div>
+  {% endif %}
+  
+ <!-- Tipp 36 Testament -->
+  
+{% if patientenverfuegungtestament == "261" or patientenverfuegungtestament == "262" or patientenverfuegungtestament == "264" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/testament-verfassen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport36.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 37 Hausrat-->
+  
+  {% if hausrat != "252" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/hausratversicherung/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport37.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 38 Haftpflicht -->
+  
+  {% if privathaftpflicht != "253" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/privathaftpflicht/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport38.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 39 BU Beruf-->
+  
+  {% if bu != "254" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/berufsunfaehigkeitsversicherung/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport39.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 40 Rentenlückenrechner -->
+  
+  {% if ziel == "1.1" or ziel == "1.3" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://www.ihre-rentenluecke.de/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport40.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 41 Patientenverfügung -->
+  
+  {% if patientenverfuegungtestament == "261" or patientenverfuegungtestament == "262" or patientenverfuegungtestament == "265" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/patientenverfuegung-erstellen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport41.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 42 Notfallordner -->
+  
+  {% if notfallordner == "242" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/notfallordner-anlegen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport42.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 43 Clark Versicherungen  -->
+  
+  {% if clark == "272" or clark == "273" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/clark-erfahrungen-die-top-3-versicherungsmakler-im-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport43.webp"></a></div>
+  </div>
+  {% endif %}
+
+<!--Investitionstipps starten-->
+<br>
+<div style="background-color:#25215c;">
+<h1 style="background-color:#25215c; padding-top:35px; padding-bottom:35px; color:#efc537;text-align:center;font-weight:600;font-size:50px;">Deine Investitionsstipps</h1>
+</div>
+
+  <!-- Tipp 18 Notfallreserve Notgroschen-->
+  
+  {% if notgroschen == "172" or notgroschen == "173" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/notgroschen-wie-hoch/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport18.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 17 ETFs Einsteiger -->
+  
+  
+  {% if interesseetf  == "2115" and investiertetf  != "2018" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/was-sind-etfs/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport17.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 19 Nachhaltigkeit -->
+  
+  {% if nachhaltigkeit == "192" or nachhaltigkeit == "193" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/ethische-banken/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport19.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 20 Tagesgeld -->
+  
+  {% if interessetagesgeld  == "2111" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/tagesgeld-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport20.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 21 Festgeld-->
+  
+  {% if interessefestgeld == "2112" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/festgeld-vergleich/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport21.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 22 Immobilien-->
+  
+  {% if interesseimmobilien == "2113" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/immobilien/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport22.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 23 Optionen -->
+  
+  {% if interesseoptionen == "2119" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/optionen-handeln/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport23.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 24 Passives Einkommen-->
+  
+  {% if investiertetf == "2018" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/31-ideen-passives-einkommen-zu-generieren/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport24.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 25 P2P-->
+  
+  {% if interessep2p == "2116" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/p2p-kredite/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport25.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 26 Krypto  -->
+  
+  {% if interessekrypto == "2117" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/kryptowaehrung-kaufen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport26.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 27 Kinderdepot-->
+  
+  {% if kinder == "221" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/geld-anlegen-fuer-kinder/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport27.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 28 Rohstoffe -->
+  
+  {% if interesserohstoffe == "2118" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/rohstoffe-handeln/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport28.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 29 Vermögensübersicht-->
+  
+  {% if vermogen == "162" or vermogen == "163" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://shop.andreasjansen.com/products/vermogensubersicht?_pos=1&_psq=verm%C3%B6gen&_ss=e&_v=1.0"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport29.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 30 Aktienfinder -->
+  
+  {% if interesseeinzelaktien == "2114" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/links/aktienfinder"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport30.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 31 Krypto Advanced -->
+  
+  {% if investiertkrypto == "2019" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/kryptowaehrungen-passives-einkommen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport31.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 32 Vermögensaufbau 100.000 Euro Advanced -->
+  
+  {% if investiertetf == "2018" or investiertaktien == "2015" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/vermoegensaufbau-mit-30/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport32.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 33 Wie 10.000 Euro anlegen -->
+  
+  {% if investiertetf != "2018" or investiertaktien != "2015" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/10000-euro-anlegen/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport33.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 34 Robo-Advisor -->
+  
+  {% if wechseltselber == "232" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/robo-advisor-vergleich-testsieger/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport34.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 35 ETFs für Fortgeschrittene -->
+  
+  {% if investiertetf == "2018" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/etf-rebalancing/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport35.webp"></a></div>
+  </div>
+  {% endif %}
+  
+    <!-- Tipp 53 Aktiencommunitesk -->
+  
+  {% if interesseeinzelaktien == "2114" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/aktien-community-forum/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport53.webp"></a></div>
+  </div>
+  {% endif %}
+  
+  
+    <!--Finanzwissen startet-->
+<br>
+<div style="background-color:#25215c;">
+<h1 style="background-color:#25215c; padding-top: 35px; padding-bottom:35px; color:#efc537;text-align:center;font-weight:600;font-size:50px;">Deine Finanzwissentipps</h1>
+</div>
+  
+  
+  <!-- Tipp 52 Ziele und Werte -->
+  
+  {% if 1 == 1 %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/smarte-zielsetzung/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport52.webp"></a></div>
+  </div>
+  {% endif %}
+
+
+  <!-- Tipp 45 Tipp Kurs 1 Finanzen im Griff  -->
+  
+  {% if ziel == "1.1" or ziel == "1.3" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/finanzen-im-griff/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport45.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 46 Tipp Kurs 2 Vermögensaufbau mit ETFs -->
+  
+  {% if ziel == "1.2" and investiertetf != "2018" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/online-kurs-vermoegensaufbau-angebot/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport46-v.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 47 Tipp Kurs 3 Performer Portfolio  -->
+  
+  {% if ziel == "1.2" and investiertetf == "2018" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/online-kurs-fortgeschrittener-vermoegensaufbau/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport47.webp"></a></div>
+  </div>
+  {% endif %}
+  
+ <!-- Tipp 48 Podcast -->
+  
+  {% if finanzwissen contains "297" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/finanz-podcast/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport48.webp"></a></div>
+  </div>
+  {% endif %}
+
+  <!-- Tipp 49 Finanzbuch -->
+  
+  {% if finanzwissen contains "296" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://andreasjansen.com/die-12-besten-finanzbuecher/"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/Tipps-fu_r-den-Finanzreport49.webp"></a></div>
+  </div>
+  {% endif %}
+
+ <!-- Tipp 50 Money Mindset  -->
+  
+  {% if glaubenssatz == "282" %}
+  <div style="padding-top:30px" class="flex">
+      <div class="w-1/6" class="imgcenter" style="margin-left:30px;">
+        <img style="padding-top:20px" align="center" width="100px" width="100px" src="https://andreasjansen.com/wp-content/uploads/2022/03/Design-ohne-Titel.png"> 
+        <div style="margin-top:-75px;margin-left: 28px;"><p style="font-size:45px; font-weight:700; color:#25215c;">{% cycle 'group 1': '01', '03', '05', '07', '09', '11', '13', '15', '17', '19', '21', '23', '25', '27', '29', '31', '33', '35', '37', '39', '41', '43', '45', '47', '49', '51', '53', '55', '57', '59', '61', '63', '65', '67', '69', '71', '73', '75', '77', '79', '81', '83', '85', '87', '89', '91', '93', '95', '97', '99', '101', '103', '105', '107', '109' %}</p> </div>
+      </div>
+    <div  style="padding-right:15px;" class="w-5/6">
+      <a href="https://shop.andreasjansen.com/products/money-mindset-7-tage-tagebuch?_pos=1&_sid=6adbb8552&_ss=r"><img class="img11"  src="https://andreasjansen.com/wp-content/uploads/2022/09/PDF-Tipps-Finanzreport50.webp"></a></div>
+  </div>
+  {% endif %}
+  
+
+
+  </div>
+  
