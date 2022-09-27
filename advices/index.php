@@ -544,6 +544,38 @@ $categories = [
       ],
 
       //
+      //      
+      //            
+      //                     //// 44 Kfz Haftpflicht
+
+      (object) [
+        "title" => "KFZ-Haftpflicht vergleichen",
+        "display" => isset($data->q12) && ($data->q12 === "121"),
+        "icon" =>
+          "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung44.png",
+        "descriptions" => [
+          (object) [
+            "text" =>
+              "Die meisten KFZ-Haftpflichtversicherungen bieten die gleichen Konditionen, aber nicht die gleichen Preise.",
+            "icon" =>
+              "https://andreasjansen.com/wp-content/uploads/2022/09/MiniIcon9.png",
+          ],
+          (object) [
+            "text" =>
+              "Mit einem schnellen Vergleich kannst du deine aktuellen Konditionen überprüfen. ",
+            "icon" =>
+              "https://andreasjansen.com/wp-content/uploads/2022/09/MiniIcon8.png",
+          ],
+        ],
+        "links" => [
+            (object) [
+              "url" => "https://andreasjansen.com/links/blog-kfz-versicherung-tarifcheck",
+              "text" => "Jetzt zum Anbietervergleich »",
+            ],
+          ],
+      ],
+
+      //
 
     ],
   ],
@@ -684,7 +716,7 @@ $categories = [
               "text" => "Mehr Infos im Blog »",
             ],
             (object) [
-              "url" => "https://andreasjansen.com/links/blog-berufsunfaehigkeitsversicherung-tarifcheck",
+              "url" => "https://andreasjansen.com/links/blog-haftplfichversicherung-tarifcheck",
               "text" => "Weiter zum Anbietervergleich »",
             ],
           ],
@@ -731,7 +763,7 @@ $categories = [
 
       (object) [
         "title" => "Kennst du deine Rentenlücke?",
-        "display" => 
+        "display" => ($data->c[2] === "1.1" || $data->c[2] === "1.3"),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung40.png",
         "descriptions" => [
@@ -863,36 +895,7 @@ $categories = [
 
       //
 
-      // 44 Kfz Haftpflicht
-
-      (object) [
-        "title" => "KFZ-Haftpflicht vergleichen",
-        "display" => isset($data->q12) && ($data->q12 === "121"),
-        "icon" =>
-          "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung44.png",
-        "descriptions" => [
-          (object) [
-            "text" =>
-              "Die meisten KFZ-Haftpflichtversicherungen bieten die gleichen Konditionen, aber nicht die gleichen Preise.",
-            "icon" =>
-              "https://andreasjansen.com/wp-content/uploads/2022/09/MiniIcon9.png",
-          ],
-          (object) [
-            "text" =>
-              "Mit einem schnellen Vergleich kannst du deine aktuellen Konditionen überprüfen. ",
-            "icon" =>
-              "https://andreasjansen.com/wp-content/uploads/2022/09/MiniIcon8.png",
-          ],
-        ],
-        "links" => [
-            (object) [
-              "url" => "https://andreasjansen.com/links/blog-kfz-versicherung-tarifcheck",
-              "text" => "Jetzt zum Anbietervergleich »",
-            ],
-          ],
-      ],
-
-      //
+      
 
     ],
   ],
@@ -939,7 +942,7 @@ $categories = [
 
        (object) [
         "title" => "Investiere in ETF-Sparpläne",
-        "display" => isset($data->q21) && in_array("2115", $data->q21),
+        "display" => isset($data->q21) && in_array("2115", $data->q21) && !in_array("2018", $data->q20),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung17.png",
         "descriptions" => [
@@ -1081,8 +1084,8 @@ $categories = [
 
       (object) [
         "title" => "Du suchst die besten Einzelaktien",
-        "display" => isset($data->q20) && in_array("2015", $data->q20),
-        "icon" =>
+        "display" => isset($data->q21) && in_array("2114", $data->q21),
+        "icon" => 
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung53.png",
         "descriptions" => [
           (object) [
@@ -1178,7 +1181,7 @@ $categories = [
 
       (object) [
         "title" => "Passives Einkommen aufbauen",
-        "display" => isset($data->q20) && in_array("2017", $data->q20),
+        "display" => isset($data->q20) && in_array("2018", $data->q20),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung24.png",
         "descriptions" => [
@@ -1438,7 +1441,7 @@ $categories = [
 
       (object) [
         "title" => "Vermögensaufbau ab 100.000€",
-        "display" => isset($data->q20) && (in_array("2017", $data->q20) || in_array("2015", $data->q20)),
+        "display" => isset($data->q20) && (in_array("2018", $data->q20) || in_array("2015", $data->q20)),
 
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung32.png",
@@ -1470,7 +1473,7 @@ $categories = [
 
       (object) [
         "title" => "10.000€ anlegen: So geht´s",
-        "display" => isset($data->q20) && (!in_array("2017", $data->q20) || !in_array("2015", $data->q20)),
+        "display" => isset($data->q20) && (!in_array("2018", $data->q20) || !in_array("2015", $data->q20)),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung33.png",
         "descriptions" => [
@@ -1536,7 +1539,7 @@ $categories = [
 
       (object) [
         "title" => "Verbessere dein ETF-Portfolio",
-        "display" => isset($data->q20) && in_array("2015", $data->q20),
+        "display" => isset($data->q20) && in_array("2018", $data->q20),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung35.png",
         "descriptions" => [
@@ -1644,7 +1647,7 @@ $categories = [
 
       (object) [
         "title" => "Erfolgreicher Vermögensaufbau mit ETFs - Online-Kurs",
-        "display" => ($data->c[2] === "1.2" && $data->q20 !== "2017"),
+        "display" => ($data->c[2] === "1.2" && isset($data->q20) && !in_array("2018", $data->q20)),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung46.png",
         "descriptions" => [
@@ -1675,7 +1678,7 @@ $categories = [
 
       (object) [
         "title" => "Starte das Programm Performer Portfolio",
-        "display" => ($data->c[2] === "1.2" && $data->q20 !== "2017"),
+        "display" => ($data->c[2] === "1.2" && isset($data->q20) && in_array("2018", $data->q20)),
         "icon" =>
           "https://andreasjansen.com/wp-content/uploads/2022/09/IconFinanzauswertung47.png",
         "descriptions" => [
