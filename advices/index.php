@@ -1,7 +1,8 @@
 <?php
 
-$json = base64_decode($_GET["e"]);
+$json = utf8_encode(base64_decode($_GET["e"]));
 $data = json_decode($json);
+
 
 $categories = [
   (object) [
